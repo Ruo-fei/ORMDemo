@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ORMDemo:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ORMDemo</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ORMDemo-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ORMDemo:war exploded" />
+    </root>
+  </artifact>
+</component>
